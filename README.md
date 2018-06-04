@@ -1,2 +1,2 @@
 # platziverse
-Just another app
+IN PROCESS - Simple IoT Platform :)
