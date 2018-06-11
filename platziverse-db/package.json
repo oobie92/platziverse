@@ -1,0 +1,50 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "Simple IoT Platform - DB Module",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "nodev": " node node_ver.js",
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava tests/ --verbose",
+    "setup": "DEBUG=platziverse:* && node setup.js -- y",
+    "lint": "standard -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oobie92/platziverse.git"
+  },
+  "author": "Diego Mendez <diegomarmcfly@gmail.com> (https://www.facebook.com/diegomar.mcfly)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oobie92/platziverse/issues"
+  },
+  "homepage": "https://github.com/oobie92/platziverse#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "envify": "^4.1.0",
+    "if-node-version": "^1.1.1",
+    "longjohn": "^0.2.12",
+    "nyc": "^11.6.0",
+    "proxyquire": "^2.0.1",
+    "sinon": "^4.5.0",
+    "sqlite": "^2.9.2",
+    "sqlite3": "^4.0.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "check-node-version": "^3.2.0",
+    "debug": "^3.1.0",
+    "defaults": "^1.0.3",
+    "inquirer": "^5.2.0",
+    "minimist": "^1.2.0",
+    "node-gyp": "^3.6.2",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "semver": "^5.5.0",
+    "sequelize": "^4.37.8"
+  }
+}
