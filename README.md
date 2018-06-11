@@ -1,2 +1,2 @@
 # platziverse
-IN PROCESS - Simple IoT Platform :)
+Simple IoT Platform :)
